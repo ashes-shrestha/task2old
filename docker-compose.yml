@@ -1,12 +1,11 @@
 version: '3'
 
 services:
-  task2:
-    build:
-      context: .
-      dockerfile: Dockerfile
+  Task2:
+    image: php:8.0-apache
+    command: php artisan serve --host=0.0.0.0
     ports:
       - 80:8000
     volumes:
-      - ./mvc:/var/www/html
+      - ./task2:/var/www/html
     
