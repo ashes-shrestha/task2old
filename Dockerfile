@@ -1,6 +1,6 @@
 FROM php:8.0-apache
-RUN cd mcv
-RUN md mcv
+RUN cd mvc
+RUN md mvc
 RUN composer update
 RUN cd ..
 RUN php artisan key:generate
