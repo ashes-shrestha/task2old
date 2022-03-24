@@ -3,6 +3,7 @@ Prerequisite: Docker
 **Instructions:**
 
 Clone/Download the repository into your local machine
+
 In terminal, goto the repository directory/folder
 
 **Run command:** 
