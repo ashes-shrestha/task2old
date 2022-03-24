@@ -3,7 +3,7 @@ version: '3'
 services:
   Task2:
     image: php:8.0-apache
-    command: php artisan serve --host=0.0.0.0
+    command: php artisan key:generate
     ports:
       - 80:8000
     volumes:
